@@ -29,7 +29,7 @@ class Observacion extends CI_Controller {
 		 	
 			
 			$form_data = array(
-					       	'id_observacion' => set_value('id_observacion'),
+					       	'id_observacion' => null,
 					       	'id_expediente' => set_value('id_expediente'),
 					       	'fecha' => set_value('fecha'),
 					       	'descripcionde_observacion' => set_value('descripcionde_observacion'),
