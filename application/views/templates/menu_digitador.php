@@ -21,10 +21,10 @@
                   <i class="fa fa-folder"></i> <span>Datos masivos</span> <i class="fa fa-angle-left pull-right"></i>
                </a>
                <ul class="treeview-menu">
-			       <li><a href="<?php BASE_URL() ?>institucion"><i class="fa fa-circle-o"></i> Ingreso Datos Masivos</a></li>
+			       <li><a href="<?php BASE_URL() ?>partida"><i class="fa fa-circle-o"></i> Ingreso De partida</a></li>
                </ul>
 			   <ul class="treeview-menu">
-			       <li><a href="<?php BASE_URL() ?>institucion"><i class="fa fa-circle-o"></i> Ingreso Ficha Adopcion</a></li>
+			       <li><a href="<?php BASE_URL() ?>ficha_adopcion"><i class="fa fa-circle-o"></i> Ingreso Ficha Adopcion</a></li>
                </ul>
             </li>
             <li class="treeview">
@@ -32,7 +32,7 @@
                   <i class="fa fa-folder"></i> <span>Contraseña</span> <i class="fa fa-angle-left pull-right"></i>
                </a>
                <ul class="treeview-menu">
-			       <li><a href="<?php BASE_URL() ?>institucion"><i class="fa fa-circle-o"></i> Cambio contraseña</a></li>
+			       <li><a href="<?php BASE_URL() ?>usuario"><i class="fa fa-circle-o"></i> Cambio contraseña</a></li>
               </ul>
             </li>
           </ul>
