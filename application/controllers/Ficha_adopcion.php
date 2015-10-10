@@ -65,7 +65,10 @@ class Ficha_adopcion extends CI_Controller {
 	
 		if ($this->form_validation->run() == FALSE) // validation hasn't been passed
 		{
-			$this->load->view('pages/view_ficha_adopcion');
+			$this->load->view('templates/head');
+			$this->load->view('templates/menu_digitador');
+			$this->load->view('pages/view_ficha_adopcion');			
+			$this->load->view('templates/foot');
 			//$this->load->view('pages/ficha_adopcion02');
 		}
 		else // passed validation proceed to post success logic

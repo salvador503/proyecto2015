@@ -25,10 +25,10 @@ class Expediente extends CI_Controller {
 	
 		if ($this->form_validation->run() == FALSE) // validation hasn't been passed
 		{
-			$this->load->view('templates/head2');
-			$this->load->view('templates/menu2');
+			$this->load->view('templates/head');
+			$this->load->view('templates/menu_investigador');
 			$this->load->view('pages/view_expediente');
-			$this->load->view('templates/foot2');
+			$this->load->view('templates/foot');
 
 		}
 		else // passed validation proceed to post success logic

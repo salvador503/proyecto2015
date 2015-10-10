@@ -21,8 +21,11 @@ class Observacion extends CI_Controller {
 			
 		$this->form_validation->set_error_delimiters('<br /><span class="error">', '</span>');
 	
-		if ($this->form_validation->run() == FALSE) 		{
+		if ($this->form_validation->run() == FALSE){
+			$this->load->view('templates/head');
+			$this->load->view('templates/menu_investigador');
 			$this->load->view('pages/view_observacion');
+			$this->load->view('templates/foot');
 			//$this->load->view('pages/observaciones02');
 		}
 		else 		{
