@@ -21,7 +21,10 @@ class Institucion extends CI_Controller {
 	
 		if ($this->form_validation->run() == FALSE) // validation hasn't been passed
 		{
+			$this->load->view('templates/head2');
+			$this->load->view('templates/menu2');
 			$this->load->view('pages/view_institucion');
+			$this->load->view('templates/foot2');
 		}
 		else // passed validation proceed to post success logic
 		{

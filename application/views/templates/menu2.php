@@ -13,7 +13,7 @@
                 <i class="fa fa-dashboard"></i> <span>Datos masivos</span> <i class="fa fa-angle-left pull-right"></i>
               </a>
               <ul class="treeview-menu">
-                <li><a href="../../index.html"><i class="fa fa-circle-o"></i>Ficha de adopcion</a></li>
+                <li><a href="<?php BASE_URL() ?>institucion"><i class="fa fa-circle-o"></i>Ficha de adopcion</a></li>
                 <li><a href="../../index2.html"><i class="fa fa-circle-o"></i>Partida de nacimiento</a></li>
               </ul>
             </li>

@@ -39,6 +39,7 @@
 */
 
 $route['default_controller'] = "expediente";
+// $route['(institucion)'] = 'institucion';
 $route['404_override'] = '';
 
 

@@ -65,7 +65,7 @@ class CI_Config {
 		log_message('debug', "Config Class Initialized");
 
 		// Set the base_url automatically if none was provided
-		if ($this->config['base_url'] == 'http://localhost/codeigniter/')
+		if ($this->config['base_url'] == 'http://localhost/proyecto2015/')
 		{
 			if (isset($_SERVER['HTTP_HOST']))
 			{
