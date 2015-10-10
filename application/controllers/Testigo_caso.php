@@ -25,7 +25,10 @@ class Testigo_caso extends CI_Controller {
 	
 		if ($this->form_validation->run() == FALSE) // validation hasn't been passed
 		{
+			$this->load->view('templates/head');
+			$this->load->view('templates/menu_investigador');
 			$this->load->view('pages/view_testigo_caso');
+			$this->load->view('templates/foot');
 		}
 		else // passed validation proceed to post success logic
 		{
